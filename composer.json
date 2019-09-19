@@ -1,0 +1,21 @@
+{
+    "name": "ifcanduela/events",
+    "description": "Tiny, simple events library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Fernández Canduela",
+            "email": "ifcanduela@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ifcanduela\\events\\": "src/"
+        }
+    }
+}
